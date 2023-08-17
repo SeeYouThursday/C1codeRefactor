@@ -8,6 +8,8 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Header styling - font, padding, background color, and text color
+ */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,17 +17,19 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-/* title style */
+
+/* title style - display inline with the text, adjusted font size*/
 h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* changed to an id as this only affects one element, considered just changing to selecting the element, but wanted to avoid future issues */
 #seo {
   color: #d9dcd6;
 }
 
-/* stylizing the nav menu */
+/* stylizing the nav menu - changed selectors to match semantic HTML*/
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -48,9 +52,11 @@ a {
   text-decoration: none;
 }
 
+/* changed selectors to match semantic HTML  */
 figcaption {
   font-size: 16px;
 }
+
 /* below inserts a background image towards the top of the page */
 .hero {
   height: 800px;
@@ -60,6 +66,7 @@ figcaption {
   background-size: cover;
   background-position: center;
 }
+
 /* adjusting position of img in main to alternate */
 .float-left {
   float: left;
@@ -71,11 +78,13 @@ figcaption {
   margin-left: 25px;
 }
 
+/* applies changes to width of .content, displays as an inline block, and adds space to the margin on the left side */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
+
 /* stylizing aside below */
 .benefits {
   margin-right: 20px;
@@ -88,13 +97,15 @@ figcaption {
   background-color: #2589bd;
 }
 
+/* changed the text color to white and adjusted the bottom margin */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
 }
-/* 
+
+/* Redundant Styling Changed to above 
 .benefit-brand {
   margin-bottom: 32px;
   color: #ffffff;
@@ -111,7 +122,8 @@ figcaption {
   margin-bottom: 10px;
   text-align: center;
 }
-/* 
+
+/* Redundant Styling Changed to above 
 .benefit-brand h3 {
   margin-bottom: 10px;
   text-align: center;
@@ -129,6 +141,7 @@ figcaption {
   margin: 10px auto;
   max-width: 150px;
 }
+
 /* Redundant Styling Changed to above 
 .benefit-brand img {
   display: block;
@@ -154,8 +167,8 @@ figcaption {
   background-color: #0072bb;
   color: #ffffff;
 }
-/* redundant styling changed from below to above */
-/* .online-reputation-management {
+/* redundant styling changed from below to above 
+ .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -177,6 +190,7 @@ figcaption {
 .social-media-marketing img {
   max-height: 200px;
 }
+
 /* redundant styling changed from below to above
 .online-reputation-management img {
   max-height: 200px;
@@ -204,7 +218,7 @@ figcaption {
   font-size: 36px;
 } */
 
-/* check to see if this piece needs to be deleted based on mockup */
+/* changed to select footer element instead of class based on redundancy */
 footer {
   padding: 30px;
   clear: both;
