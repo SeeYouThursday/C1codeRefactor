@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -21,11 +21,12 @@ h1 {
   font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
   color: #d9dcd6;
 }
+
 /* stylizing the nav menu */
-.header nav {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -41,7 +42,7 @@ nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-/* 8/17 - 7:58 am - stopped here - look at ln 34 in HTML file to continue semantic */
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -59,7 +60,7 @@ figcaption {
   background-size: cover;
   background-position: center;
 }
-/* adjusting position of img in main */
+/* adjusting position of img in main to alternate */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -75,7 +76,7 @@ figcaption {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* stylizing aside below */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -197,6 +198,6 @@ footer {
   text-align: center;
 }
 
-.footer h2 {
+.footer {
   font-size: 20px;
 }
