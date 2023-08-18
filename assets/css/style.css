@@ -1,9 +1,11 @@
+/* styling selects all elements */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-/* background of site style */
+
+/* background of body style */
 body {
   background-color: #d9dcd6;
 }
