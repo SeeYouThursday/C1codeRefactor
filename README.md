@@ -6,7 +6,7 @@ Our first homework challenge was meant to simulate a company that hired me to re
 
 ## Usage
 
-Visit this URL: https://seeyouthursday.github.io/C1codeRefactor/
+Visit this URL: <https://seeyouthursday.github.io/C1codeRefactor/>
 
 To navigate this website, simply select from the navbar which topic you would like to know information about. For example, when you select "Search Engine Optimization", you will be taken to the Search Engine Optimization description. This website contains the types of work Horiseon does for their clients.
 
@@ -18,6 +18,4 @@ N/A
 
 ## License
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+Please refer to the LICENSE in the repo.
