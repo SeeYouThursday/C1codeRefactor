@@ -155,7 +155,7 @@ p {
 
 /* end aside styling */
 
-.main-goals {
+.main-purpose {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -181,7 +181,7 @@ p {
   color: #ffffff;
 } */
 
-.main-goals img {
+.main-purpose img {
   max-height: 200px;
 }
 
@@ -194,7 +194,7 @@ p {
 }
 */
 
-.main-goals h2 {
+.main-purpose h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
